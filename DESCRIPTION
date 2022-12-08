@@ -1,0 +1,11 @@
+Package: betterManhattanPlot
+Title: A Better Manhattan Plot
+Version: 0.0.0.9000
+Authors@R: 
+    person("Craig", "Carlson", , "craig.h.carlson@usda.gov", role = c("author", "creator"),
+           comment = c(ORCID = "0000-0003-2050-5455"))
+Description: This function takes a dataframe of GWAS results as input, which requires columns named: "snp", "chr", "bp", and "p", and returns a Manhattan plot. This function assumes snp position is in base pairs "bp". Options are: genome-wide significance threshold, chromosome colors, and snps to highlight. A QQ-plot can also be generated with a vector of p-values.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
